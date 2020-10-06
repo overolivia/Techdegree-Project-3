@@ -146,9 +146,7 @@ select {
 
 input[placeholder="Required"] {
 	text-align: right;
-	color: darkslategrey;
-	opacity: 50%;
-	font-style: italic; 
+	font-style: italic;
 }
 
 input[type="text"]:focus {
@@ -164,6 +162,36 @@ textarea {
 input[type="checkbox"] {
 	
 	padding: 0 15px;
+}
+
+
+/*----media queries----*/
+
+@media (min-width: 768px) {
+	
+	.container {
+		max-width: 50%;
+	}
+	
+	
+	
+	li {
+		display: inline-flex;
+		flex-direction: column;
+		
+	}
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
 }
 
 
