@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	
+}
+
+
+footer {
+	text-align: center;
+	color: darkgrey;
+	font-style: italic;
+	font-size: .9em;
+}
+
+h2 {
+	color: #152B2E;
+	
+}
+
+
+form {
+	border-style: hidden;
+	
+}
+
+legend {
+	font-size: 1.5em;
+	padding: 15px 0;
+}
+
+fieldset {
+	border: none;
+	padding: 0;
+}
+
+input,
+select,
+textarea {
+	background: rgba(255,255,255,0.1);
+	border: none;
+  	font-size: 16px;
+ 	padding: 15px;
+  	background-color: #e8eeef;
+  	color: #8a97a0;
+  	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  	margin-bottom: 30px;
+  	border-radius: 5px;
+}
+
+label {
+	color: darkgray;
+	padding-bottom: 10px;
+}
+
+button {
+  	margin: 20px 0;
+	color: white;
+	font-weight: bold;
+ 	padding: 19px 39px 18px 39px;
+	background-color: teal;
+	font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    border-width: 1px 1px 3px;
+	width: 100%;
+}
+
+button:hover {
+	border-color: white;
+	opacity: 95%;
+	background: darkslategrey;
+	color: lightgray;
+}
+
+
+.container {
+	max-width: 90%;
+	margin: auto;
+}
+
+.basic {
+	padding: 0;
+	border-bottom: solid 2px;
+}
+
+.main-head,
+.sub-head {
+	text-align: center;
+}
+
+
+.main-head {
+	color: white;
+	background:  #152B2E; 
+	text-transform: uppercase;
+	padding: 20px;
+	font-size: .85em;
+	
+	
+}
+
+.sub-head {
+	border-bottom: solid 5px;
+	padding: 30px 0;
+}
+
+
+.main-content {
+	border-top: solid 2px;
+	margin-top: 5px;
+	
+}
+
+
+
+.sub-head p {
+	
+	color: grey;
+}
+
+.basic label {
+	display: block;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="address"],
+input[type="city"],
+textarea,
+select {
+	width: 100%;
+}
+
+
+
+input[placeholder="Required"] {
+	text-align: right;
+	color: darkslategrey;
+	opacity: 50%;
+	font-style: italic; 
+}
+
+input[type="text"]:focus {
+	border: solid 2px #040045;
+}
+
+input[id="html-format"],
+input[id="html"],
+textarea {
+	margin-top: 15px;
+}
+
+input[type="checkbox"] {
+	
+	padding: 0 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
