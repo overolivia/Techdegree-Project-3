@@ -25,6 +25,13 @@ h2 {
 	
 }
 
+ul {
+	padding-left: 0;
+}
+
+li {
+	list-style-type: none;
+}
 
 form {
 	border-style: hidden;
@@ -58,6 +65,7 @@ textarea {
 label {
 	color: darkgray;
 	padding-bottom: 10px;
+
 }
 
 button {
@@ -170,14 +178,37 @@ input[type="checkbox"] {
 @media (min-width: 768px) {
 	
 	.container {
-		max-width: 50%;
+		max-width: 60%;
 	}
 	
 	
 	
 	li {
-		display: inline-flex;
-		flex-direction: column;
+		        
+		display: flex;
+		
+		
+	}
+	
+	input[type="text"],
+	input[type="email"],
+	input[type="phone"],
+	input[type="address"],
+	input[type="city"],
+	input[type="zip"] {
+		
+		flex-direction: row;
+		align-content: flex-start;
+		flex-wrap: nowrap;
+	}
+	
+	label[for="zip"] {
+		max-width: 
+	}
+	
+	label {
+		flex-basis: 30%;
+		
 		
 	}
 	
@@ -187,7 +218,7 @@ input[type="checkbox"] {
 	
 
 	
-	
+
 	
 	
 	
