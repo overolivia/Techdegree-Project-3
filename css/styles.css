@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+
 * {
 	box-sizing: border-box;
 }
@@ -18,6 +20,7 @@ footer {
 	color: darkgrey;
 	font-style: italic;
 	font-size: .9em;
+	padding: 10px 0;
 }
 
 h2 {
@@ -51,19 +54,19 @@ fieldset {
 input,
 select,
 textarea {
-	background: rgba(255,255,255,0.1);
 	border: none;
   	font-size: 16px;
  	padding: 15px;
-  	background-color: #e8eeef;
-  	color: #8a97a0;
+  	background-color: rgba(54,54,54,0.1);
+  	color: #1b1b1b;
   	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   	margin-bottom: 30px;
   	border-radius: 5px;
+
 }
 
 label {
-	color: darkgray;
+	color: #1B1B1B;
 	padding-bottom: 10px;
 
 }
@@ -73,7 +76,7 @@ button {
 	color: white;
 	font-weight: bold;
  	padding: 19px 39px 18px 39px;
-	background-color: teal;
+	background-color: #92374D;
 	font-size: 18px;
     text-align: center;
     border-radius: 5px;
@@ -84,8 +87,7 @@ button {
 button:hover {
 	border-color: white;
 	opacity: 95%;
-	background: darkslategrey;
-	color: lightgray;
+	background: #B3435E;
 }
 
 
@@ -97,6 +99,7 @@ button:hover {
 .basic {
 	padding: 0;
 	border-bottom: solid 2px;
+	border-color: #5C2230;
 }
 
 .main-head,
@@ -107,7 +110,7 @@ button:hover {
 
 .main-head {
 	color: white;
-	background:  #152B2E; 
+	background:  #252C4D; 
 	text-transform: uppercase;
 	padding: 20px;
 	font-size: .85em;
@@ -117,21 +120,26 @@ button:hover {
 
 .sub-head {
 	border-bottom: solid 5px;
+	border-color: #5C2230;
 	padding: 30px 0;
 }
 
 
 .main-content {
 	border-top: solid 2px;
+	border-color: #5C2230;
 	margin-top: 5px;
 	
+	background-color: rgba(193,178,171,0.25);
+	border-radius: 5px;
+	padding: 20px;
 }
 
 
 
 .sub-head p {
 	
-	color: grey;
+	color: #1b1b1b;
 }
 
 .basic label {
@@ -140,11 +148,11 @@ button:hover {
 
 
 
-input[type="text"],
-input[type="email"],
-input[type="phone"],
-input[type="address"],
-input[type="city"],
+input[id="name"],
+input[id="email"],
+input[id="address"],
+input[id="phone"],
+input[id="city"],
 textarea,
 select {
 	width: 100%;
@@ -152,13 +160,19 @@ select {
 
 
 
-input[placeholder="Required"] {
+input[placeholder="Required"],
+input[placeholder="123-456-7890"] {
 	text-align: right;
 	font-style: italic;
 }
 
-input[type="text"]:focus {
-	border: solid 2px #040045;
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus {
+	background-color: rgba(54,54,54,0.3);
+	box-shadow: inset 2px #3D2A58;
 }
 
 input[id="html-format"],
@@ -178,7 +192,7 @@ input[type="checkbox"] {
 @media (min-width: 768px) {
 	
 	.container {
-		max-width: 60%;
+		max-width: 70%;
 	}
 	
 	
@@ -202,23 +216,12 @@ input[type="checkbox"] {
 		flex-wrap: nowrap;
 	}
 	
-	label[for="zip"] {
-		max-width: 
-	}
 	
 	label {
 		flex-basis: 30%;
-		
-		
+		max-width: 22%;
+		margin-right: 30px;
 	}
-	
-	
-	
-	
-	
-
-	
-
 	
 	
 	
@@ -228,27 +231,3 @@ input[type="checkbox"] {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.
