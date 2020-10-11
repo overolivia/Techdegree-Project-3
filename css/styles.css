@@ -182,7 +182,8 @@ textarea {
 	margin-top: 15px;
 }
 
-input[type="checkbox"] {
+input[type="checkbox"],
+input[type="radio"]{
 	
 	padding: 0 15px;
 }
@@ -207,7 +208,7 @@ input[type="checkbox"] {
 	
 	input[type="text"],
 	input[type="email"],
-	input[type="phone"],
+	input[type="tel"],
 	input[type="address"],
 	input[type="city"],
 	input[type="zip"] {
